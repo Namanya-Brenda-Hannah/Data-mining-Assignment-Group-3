@@ -1,0 +1,20 @@
+2026-10-15 16:10:48,851 INFO Run started (FULL mode). User-Agent: DSC2107-Course-Project (B33454@student.ucu.ac.ug)
+2026-10-15 16:10:53,241 INFO robots.txt loaded: 280 rules in the '*' group
+2026-10-15 16:11:11,067 INFO Phones & Tablets page 1 card lists: {'productfloor_1_category:Phones_&_Tablets_8070_en_EG': 8, 'productfloor_2_category:Phones_&_Tablets_8070_en_EG': 9, 'productfloor_3_category:Phones_&_Tablets_8070_en_EG': 5, 'productfloor_4_category:Phones_&_Tablets_8070_en_EG': 15, 'productfloor_5_category:Phones_&_Tablets_8070_en_EG': 10, 'productfloor_6_category:Phones_&_Tablets_8070_en_EG': 15, '(none)': 40}
+2026-10-15 16:11:11,175 INFO Phones & Tablets page 1: 102 cards, 92 new (category total 92)
+2026-10-15 16:11:17,218 INFO Phones & Tablets page 2: 40 cards, 37 new (category total 129)
+2026-10-15 16:11:26,409 INFO Phones & Tablets page 3: 40 cards, 37 new (category total 166)
+2026-10-15 16:11:40,340 INFO Phones & Tablets page 4: 40 cards, 36 new (category total 202)
+2026-10-15 16:11:48,731 INFO Phones & Tablets page 5: 40 cards, 37 new (category total 239)
+2026-10-15 16:11:57,110 INFO Baby Products page 1 card lists: {'productfloor_1_category:Baby_Products_24527_en_EG': 12, 'productfloor_2_category:Baby_Products_24527_en_EG': 15, 'productfloor_3_category:Baby_Products_24527_en_EG': 11, '(none)': 40}
+2026-10-15 16:11:57,203 INFO Baby Products page 1: 78 cards, 74 new (category total 74)
+2026-10-15 16:12:14,064 INFO Baby Products page 2: 40 cards, 35 new (category total 109)
+2026-10-15 16:12:22,731 INFO Baby Products page 3: 40 cards, 38 new (category total 147)
+2026-10-15 16:12:35,842 INFO Baby Products page 4: 40 cards, 39 new (category total 186)
+2026-10-15 16:12:46,952 INFO Baby Products page 5: 40 cards, 38 new (category total 224)
+2026-10-15 16:12:58,040 INFO Health & Beauty page 1 card lists: {'productfloor_1_category:Health_&_Beauty_22623_en_EG': 10, 'productfloor_2_category:Health_&_Beauty_22623_en_EG': 11, 'productfloor_3_category:Health_&_Beauty_22623_en_EG': 15, 'productfloor_4_category:Health_&_Beauty_22623_en_EG': 15, 'productfloor_5_category:Health_&_Beauty_22623_en_EG': 14, 'productfloor_6_category:Health_&_Beauty_22623_en_EG': 11, '(none)': 40}
+2026-10-15 16:12:58,177 INFO Health & Beauty page 1: 116 cards, 113 new (category total 113)
+2026-10-15 16:13:14,965 INFO Health & Beauty page 2: 40 cards, 39 new (category total 152)
+2026-10-15 16:13:22,747 INFO Health & Beauty page 3: 40 cards, 39 new (category total 191)
+2026-10-15 16:13:30,259 INFO Health & Beauty page 4: 40 cards, 37 new (category total 228)
+2026-10-15 16:13:58,171 INFO Health & Beauty page 5: 40 cards, 40 new (category total 268)
