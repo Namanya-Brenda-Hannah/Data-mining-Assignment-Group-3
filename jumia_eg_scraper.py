@@ -6,11 +6,11 @@ import csv, json, logging, os, random, re, sys, time, datetime as dt
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urljoin
-import requests
-from bs4 import BeautifulSoup
+import requests #Downloads web pages 
+from bs4 import BeautifulSoup #Reads HTML and lets you search it with CSS selectors
 
 
-EMAIL = "B33454@student.ucu.ac.ug"
+EMAIL = "B33454@student.ucu.ac.ug" # is the name your program announces to the website. 
 CATEGORIES = {                      
     "Phones & Tablets": "/phones-tablets/",
     "Baby Products":    "/baby-products/",
@@ -35,7 +35,7 @@ for sub in ("raw", "raw_html", "robots", "logs", "debug"):
     (ROOT / sub).mkdir(parents=True, exist_ok=True)
 
 RUN_STAMP = dt.datetime.now().strftime("%Y-%m-%d_%H%M")   # one stamp for every file of this run
-
+#FIELDS: Is the list of CSV column names, and therefore the shape of the dataset 
 FIELDS = ["scraped_at", "category", "category_path", "page", "position_on_page", "product_id",
           "name", "brand", "price_text", "old_price_text", "discount_text", "rating_text",
           "review_text", "data_price", "data_category", "ga4_discount", "ga4_list", "ga4_category", "product_url", "source_page", "raw_html"]
