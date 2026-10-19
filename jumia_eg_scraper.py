@@ -41,10 +41,10 @@ FIELDS = ["scraped_at", "category", "category_path", "page", "position_on_page",
           "review_text", "data_price", "data_category", "ga4_discount", "ga4_list", "ga4_category", "product_url", "source_page", "raw_html"]
 
 log = logging.getLogger("scraper")
-n_requests = 0
-last_status = None # HTTP code of the last request, or 'timeout/network error'
+n_requests = 0 #counts how many requests have been made.
+last_status = None #remembers the  HTTP code of the last request, or 'timeout/network error'
 
-
+#Bloacked is a custom error. The script raises it when the site answers 403/429 which are too many requests or are forbidden
 class Blocked(Exception):
     """Raised on HTTP 403/429: we stop, document and slow down (Rule 4f)."""
 
