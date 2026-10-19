@@ -68,7 +68,7 @@ def star_rules(txt):
             last_ua = False
     return [r for g in groups if "*" in g["agents"] for r in g["rules"]]
 
-
+#is_allowed(rules, path) answers: may I visit this path? 
 def is_allowed(rules, path):
     best_len, ok = -1, True
     for kind, pat in rules:
@@ -81,7 +81,17 @@ def is_allowed(rules, path):
                 best_len, ok = len(pat), kind == "allow"
     return ok
 
-
+'''The polite downloader, get(url)
+This is the only function that touches the network. Read it in order:
+1. Stop if the request cap is reached.
+2. Sleep 3 to 5 seconds (random, so it does not look like a clock).
+3. Send the request with your honest User-Agent and a timeout.
+4. Decide based on the status code:
+    ◦ 200: success, return the response.
+    ◦ 403 or 429: raise Blocked, which stops the whole run.
+    ◦ 404: the page does not exist, log it and return None.
+    ◦ anything else, or a network error: wait longer each attempt (5s, 10s, 15s) and retry, up to 3 times.
+5. If every attempt fails, return None.'''
 #HTTP layer
 def get(url, retries=3):
     """Polite GET: delay, honest User-Agent, retry with back-off. Returns Response or None (404/failed)."""
