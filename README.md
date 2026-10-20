@@ -137,26 +137,6 @@ Open the Jupyter Notebook containing the scraping implementation and execute its
 
 Alternatively, run the Python script if the project was implemented as a standalone script.
 
-# Project Structure
-
-The repository may be organized as follows:
-
-jumia-egypt-web-scraping/
-│
-├── data/
-│   └── scraped_data.csv
-│
-├── notebooks/
-│   └── web_scraping.ipynb
-│
-├── src/
-│   └── scraper.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-This is a suggested structure. Adjust it to match the files and folders in your actual repository.
 
 # Potential Applications
 
